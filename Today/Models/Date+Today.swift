@@ -19,4 +19,11 @@ extension Date {
       return String(format: dateAndTimeFormat, dateText, timeText)
     }
   }
+  var dayText: String {
+    if Locale.current.calendar.isDateInToday(self) {
+      return NSLocalizedString("Today", comment: "Today due data description")
+    } else {
+      return formatted(.dateTime.month().weekday(.wide))
+    }
+  }
 }
