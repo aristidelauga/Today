@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ReminderListViewController.swift
 //  Today
 //
 //  Created by Aristide LAUGA on 07/03/2023.
@@ -40,7 +40,10 @@ class ReminderListViewController: UICollectionViewController {
   
   func pushDetailViewForReminder(withId id: Reminder.ID) {
     let reminder = reminder(withId: id)
-    let viewController = ReminderViewController(reminder: reminder)
+    let viewController = ReminderViewController(reminder: reminder) { [weak self] reminder in
+      self?.updateReminder(reminder)
+      self?.updateSnapshot(reloading: [reminder.id])
+    }
     navigationController?.pushViewController(viewController, animated: true)
   }
   
