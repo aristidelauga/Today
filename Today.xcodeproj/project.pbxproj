@@ -19,6 +19,9 @@
 		926AB3B429B8E03000137847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926AB3B329B8E03000137847 /* Assets.xcassets */; };
 		926AB3B629B8EA4500137847 /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB3B529B8EA4500137847 /* ReminderDoneButton.swift */; };
 		926AB3B829B8EB4B00137847 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB3B729B8EB4B00137847 /* ReminderListViewController+Actions.swift */; };
+		926AB3BA29B9FE9D00137847 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB3B929B9FE9D00137847 /* ReminderViewController.swift */; };
+		926AB3BD29BA00AB00137847 /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB3BC29BA00AB00137847 /* ReminderViewController+Row.swift */; };
+		926AB3BF29BA143200137847 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB3BE29BA143200137847 /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		926AB3B329B8E03000137847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926AB3B529B8EA4500137847 /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		926AB3B729B8EB4B00137847 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
+		926AB3B929B9FE9D00137847 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		926AB3BC29BA00AB00137847 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
+		926AB3BE29BA143200137847 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 				926AB3A929B7A35300137847 /* Models */,
 				926AB39529B7972C00137847 /* AppDelegate.swift */,
 				926AB39729B7972C00137847 /* SceneDelegate.swift */,
+				926AB3BB29BA008800137847 /* DetailViewController */,
 				926AB3AE29B7D87700137847 /* ListViewController */,
 				926AB39B29B7972C00137847 /* Main.storyboard */,
 				926AB3B329B8E03000137847 /* Assets.xcassets */,
@@ -99,6 +106,16 @@
 				926AB3B529B8EA4500137847 /* ReminderDoneButton.swift */,
 			);
 			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		926AB3BB29BA008800137847 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				926AB3B929B9FE9D00137847 /* ReminderViewController.swift */,
+				926AB3BC29BA00AB00137847 /* ReminderViewController+Row.swift */,
+				926AB3BE29BA143200137847 /* ReminderViewController+Section.swift */,
+			);
+			path = DetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,10 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926AB3BF29BA143200137847 /* ReminderViewController+Section.swift in Sources */,
 				926AB3B229B8E01600137847 /* UIColor+Today.swift in Sources */,
 				926AB3B829B8EB4B00137847 /* ReminderListViewController+Actions.swift in Sources */,
+				926AB3BA29B9FE9D00137847 /* ReminderViewController.swift in Sources */,
 				926AB39A29B7972C00137847 /* ReminderListViewController.swift in Sources */,
 				926AB3AD29B7BF7E00137847 /* Date+Today.swift in Sources */,
+				926AB3BD29BA00AB00137847 /* ReminderViewController+Row.swift in Sources */,
 				926AB3B629B8EA4500137847 /* ReminderDoneButton.swift in Sources */,
 				926AB39629B7972C00137847 /* AppDelegate.swift in Sources */,
 				926AB39829B7972C00137847 /* SceneDelegate.swift in Sources */,
