@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9209FF5029BB6DC900DB1159 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209FF4F29BB6DC900DB1159 /* ReminderListStyle.swift */; };
 		926AB39629B7972C00137847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB39529B7972C00137847 /* AppDelegate.swift */; };
 		926AB39829B7972C00137847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB39729B7972C00137847 /* SceneDelegate.swift */; };
 		926AB39A29B7972C00137847 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB39929B7972C00137847 /* ReminderListViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9209FF4F29BB6DC900DB1159 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		926AB39229B7972C00137847 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926AB39529B7972C00137847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		926AB39729B7972C00137847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				926AB3AA29B7A36700137847 /* Reminder.swift */,
 				926AB3AC29B7BF7E00137847 /* Date+Today.swift */,
 				926AB3B129B8E01600137847 /* UIColor+Today.swift */,
+				9209FF4F29BB6DC900DB1159 /* ReminderListStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				926AB3B829B8EB4B00137847 /* ReminderListViewController+Actions.swift in Sources */,
 				926AB3BA29B9FE9D00137847 /* ReminderViewController.swift in Sources */,
 				926AB39A29B7972C00137847 /* ReminderListViewController.swift in Sources */,
+				9209FF5029BB6DC900DB1159 /* ReminderListStyle.swift in Sources */,
 				926AB3C829BA448F00137847 /* UIContentConfiguration+Stateless.swift in Sources */,
 				926AB3AD29B7BF7E00137847 /* Date+Today.swift in Sources */,
 				926AB3C429BA3FCA00137847 /* UIView+PinnedSubView.swift in Sources */,
