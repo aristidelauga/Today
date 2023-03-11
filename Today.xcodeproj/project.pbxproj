@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9209FF5029BB6DC900DB1159 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209FF4F29BB6DC900DB1159 /* ReminderListStyle.swift */; };
+		9209FF5229BB971600DB1159 /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209FF5129BB971600DB1159 /* ProgressHeaderView.swift */; };
 		926AB39629B7972C00137847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB39529B7972C00137847 /* AppDelegate.swift */; };
 		926AB39829B7972C00137847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB39729B7972C00137847 /* SceneDelegate.swift */; };
 		926AB39A29B7972C00137847 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926AB39929B7972C00137847 /* ReminderListViewController.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		9209FF4F29BB6DC900DB1159 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
+		9209FF5129BB971600DB1159 /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
 		926AB39229B7972C00137847 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926AB39529B7972C00137847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		926AB39729B7972C00137847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				926AB3AF29B7D92600137847 /* ReminderListViewController+DataSource.swift */,
 				926AB3B729B8EB4B00137847 /* ReminderListViewController+Actions.swift */,
 				926AB3B529B8EA4500137847 /* ReminderDoneButton.swift */,
+				9209FF5129BB971600DB1159 /* ProgressHeaderView.swift */,
 			);
 			path = ListViewController;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9209FF5229BB971600DB1159 /* ProgressHeaderView.swift in Sources */,
 				926AB3BF29BA143200137847 /* ReminderViewController+Section.swift in Sources */,
 				926AB3B229B8E01600137847 /* UIColor+Today.swift in Sources */,
 				926AB3CC29BA4E5000137847 /* DatePickerContentView.swift in Sources */,
