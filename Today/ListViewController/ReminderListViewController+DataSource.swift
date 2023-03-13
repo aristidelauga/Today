@@ -11,6 +11,16 @@ extension ReminderListViewController {
   typealias DataSource = UICollectionViewDiffableDataSource<Int, Reminder.ID>
   typealias Snapshot = NSDiffableDataSourceSnapshot<Int, Reminder.ID>
   
+  var reminderCompletedValue: String {
+    NSLocalizedString("Completed", comment: "Reminder completed value")
+  }
+  
+  var reminderNotCompletedValue: String {
+    NSLocalizedString("Not completed", comment: "Reminder not completed value")
+  }
+  
+  private var reminderStore: ReminderStore { ReminderStore.shared }
+  
   func updateSnapshot(reloading idsThatChanged: [Reminder.ID] = []) {
     let ids = idsThatChanged.filter { id in filteredReminders.contains(where: { $0.id == id }) }
     var snapshot = Snapshot()
@@ -67,6 +77,21 @@ extension ReminderListViewController {
   func deleteReminder(withId id: Reminder.ID) {
     let index = reminders.indexOfReminder(withId: id)
     reminders.remove(at: index)
+  }
+  
+  func prepareReminderStore() {
+    Task {
+      do {
+        try await reminderStore.requestAccess()
+      } catch TodayError.accessDenied, TodayError.accessRestricted {
+        #if DEBUG
+        reminders = Reminder.sampleData
+        #endif
+      } catch {
+        showError(error)
+      }
+      updateSnapshot()
+    }
   }
   
   private func doneButtonAccessibility(for reminder: Reminder) -> UIAccessibilityCustomAction
