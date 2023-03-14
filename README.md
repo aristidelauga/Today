@@ -1,6 +1,6 @@
 # Today
 
-Today is a reminder app that allows you to visualize efficiently your reminders for the day and the ones which are yet to come. It is connected to the native **"Reminders"** Apple's app so you communicate from this app to **Today**.
+_Today_ is a reminder app that allows you to visualize efficiently your reminders for the day and the ones which are yet to come. It is connected to the native **"Reminders"** Apple's app so you communicate from this app to **Today**.
 
 ## Features
 
