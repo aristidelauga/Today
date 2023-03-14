@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9209FF5029BB6DC900DB1159 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209FF4F29BB6DC900DB1159 /* ReminderListStyle.swift */; };
 		9209FF5229BB971600DB1159 /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9209FF5129BB971600DB1159 /* ProgressHeaderView.swift */; };
+		925E475329C0DB0B00C53F5F /* EKReminder+Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925E475229C0DB0B00C53F5F /* EKReminder+Reminder.swift */; };
 		92697F2F29BC931B000E4A24 /* CAGradientLayer+ListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92697F2E29BC931B000E4A24 /* CAGradientLayer+ListStyle.swift */; };
 		92697F3129BCD338000E4A24 /* TodayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92697F3029BCD338000E4A24 /* TodayError.swift */; };
 		92697F3329BCD5CF000E4A24 /* EKEventsStore+AsyncFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92697F3229BCD5CF000E4A24 /* EKEventsStore+AsyncFetch.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		9209FF4F29BB6DC900DB1159 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		9209FF5129BB971600DB1159 /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
+		925E475229C0DB0B00C53F5F /* EKReminder+Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKReminder+Reminder.swift"; sourceTree = "<group>"; };
 		92697F2E29BC931B000E4A24 /* CAGradientLayer+ListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+ListStyle.swift"; sourceTree = "<group>"; };
 		92697F3029BCD338000E4A24 /* TodayError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayError.swift; sourceTree = "<group>"; };
 		92697F3229BCD5CF000E4A24 /* EKEventsStore+AsyncFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKEventsStore+AsyncFetch.swift"; sourceTree = "<group>"; };
@@ -120,12 +122,13 @@
 				92697F3029BCD338000E4A24 /* TodayError.swift */,
 				92697F3229BCD5CF000E4A24 /* EKEventsStore+AsyncFetch.swift */,
 				926AB3AA29B7A36700137847 /* Reminder.swift */,
+				92697F3629BCDDAB000E4A24 /* ReminderStore.swift */,
+				925E475229C0DB0B00C53F5F /* EKReminder+Reminder.swift */,
+				9209FF4F29BB6DC900DB1159 /* ReminderListStyle.swift */,
 				92697F3429BCD99D000E4A24 /* Reminder+EKReminder.swift */,
 				926AB3AC29B7BF7E00137847 /* Date+Today.swift */,
 				926AB3B129B8E01600137847 /* UIColor+Today.swift */,
-				9209FF4F29BB6DC900DB1159 /* ReminderListStyle.swift */,
 				92697F2E29BC931B000E4A24 /* CAGradientLayer+ListStyle.swift */,
-				92697F3629BCDDAB000E4A24 /* ReminderStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				92697F2F29BC931B000E4A24 /* CAGradientLayer+ListStyle.swift in Sources */,
 				926AB3B029B7D92600137847 /* ReminderListViewController+DataSource.swift in Sources */,
 				92697F3729BCDDAB000E4A24 /* ReminderStore.swift in Sources */,
+				925E475329C0DB0B00C53F5F /* EKReminder+Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
